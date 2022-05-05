@@ -13,7 +13,7 @@
 #' @export
 
 # Beta distribution using Method of Moments
-# 0 to 1 with mean and sd
+# 0 to 1 with mean and sd specified
 beta.mom<-function(mu=NULL,sd=NULL){
   # Standard deviation
   v<-sd**2
